@@ -56,7 +56,7 @@ MC	Another question?	No, it is enough.   X	incorrect	Yes, please.	incorrect
 
 * To run the script, you need only Java to be installed on your machine, and available from the command line.
 * To hack it, you have to install Groovy, see http://www.groovy-lang.org. On Linux and Mac, you can easily install it via SDKMAN, http://sdkman.io/
-* To compile the script, the following jars have to be added at compile time: groovy (tested with *groovy-2.4.3*),  antlr4 (tested with *antlr-4.5-complete*).
+* To compile the script, the following jars have to be added at compile time: groovy (*groovy-2.4.3*),  antlr4 (*antlr-4.5-complete*).
 
 ## Contributing
 
