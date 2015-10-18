@@ -45,7 +45,7 @@ MC	Another question?	No, it is enough.	correct	Yes, please.	incorrect
 
 ## Usage 
 
-* If you don't need to modify the script, just Download the *bbquiz.jar* file, https://github.com/s1l3n0/bbquiz/blob/master/bbquiz.jar?raw=true. 
+* If you don't need to modify the script, just download the *bbquiz.jar* file
 * Write your .bbquiz file following the template given above.
 * Convert it. For instance, this command creates the output file test.2bb:
 ```
