@@ -35,21 +35,20 @@ Yes, please.
 * MA and MC are composed by a question and answers. The first line counts as the question; the following lines as the answers. Empty lines separate the quizzes. **The correct answers end with '[tab]X'** (pay attention: there is a tabulation, not empty spaces! The distinction between MA and MC is made automatically by the script. 
 * ESS questions consist of a line with a text with the request, and an empty following line (you need another empty line to separate this and the next quiz).
 
-output file: test.2bb
+## Usage 
+
+* If you don't need to modify the script, just download the *bbquiz.jar* file
+* Write your .bbquiz file following the template given above.
+* Convert it. For instance, :
+```
+> java -jar bbquiz.jar test.bbquiz
+```
+creates the output file: test.2bb
 ```
 MC	Multiple answer question?	This is a wrong response.	incorrect	This is correct.	correct
 MA	Multiple choice question?	This is a wrong response.	incorrect	This is correct.	correct	This is not correct as well.	incorrect	This is correct, too.	correct
 ESS	Please write an essay.
 MC	Another question?	No, it is enough.	correct	Yes, please.	incorrect
-```
-
-## Usage 
-
-* If you don't need to modify the script, just download the *bbquiz.jar* file
-* Write your .bbquiz file following the template given above.
-* Convert it. For instance, this command creates the output file test.2bb:
-```
-> java -jar bbquiz.jar test.bbquiz
 ```
 * Upload the converted file. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests*. Click on *Import Test* and select your .2bb file.
 
