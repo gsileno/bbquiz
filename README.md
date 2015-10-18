@@ -8,11 +8,7 @@ Therefore, I made this script to work with a much simpler template, but it is st
 
 ## The *.bbquiz* template
 
-* A *.bbquiz* file consists of *multiple answers* (MA), *multiple choice* (MC), and *essay* (ESS) questions.  
-* MA and MC are composed by a question and answers. The first line counts as the question; the following lines as the answers. Empty lines separate the quizzes. **The correct answers end with '[tab]X'** (pay attention: there is a tabulation, not empty spaces! The distinction between MA and MC is made automatically by the script. 
-* ESS questions consist of a line with a text with the request, and an empty following line (you need another empty line to separate this and the next quiz).
-
-example input file: test.bbquiz
+example file: test.bbquiz
 ```
 Multiple answer question?
 This is a wrong response.
@@ -32,6 +28,10 @@ No, it is enough.   X
 Yes, please.
 
 ```
+
+* A *.bbquiz* file consists of *multiple answers* (MA), *multiple choice* (MC), and *essay* (ESS) questions.  
+* MA and MC are composed by a question and answers. The first line counts as the question; the following lines as the answers. Empty lines separate the quizzes. **The correct answers end with '[tab]X'** (pay attention: there is a tabulation, not empty spaces! The distinction between MA and MC is made automatically by the script. 
+* ESS questions consist of a line with a text with the request, and an empty following line (you need another empty line to separate this and the next quiz).
 
 output file: test.2bb
 ```
