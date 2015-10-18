@@ -15,7 +15,7 @@ Therefore, I made this script to work with a much simpler template!
 ```
 > java -jar bbquiz.jar ./examples/test.bbquiz
 ```
-* Upload it. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests* 
+* Upload it. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests*.
 Click on *Import Test* and select your .2bb file.
 
 ## The *.bbquiz* template
