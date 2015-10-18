@@ -10,7 +10,6 @@ Therefore, I made this script to work with a much simpler template!
 
 ## Usage 
 
-* You need Java to be installed on your machine, and available at the command line.
 * Download the *bbquiz.jar* file, https://github.com/s1l3n0/bbquiz/blob/master/bbquiz.jar?raw=true
 * Convert your quiz file. For instance, executing this command you create ./examples/test.2bb:
 ```
@@ -18,6 +17,15 @@ Therefore, I made this script to work with a much simpler template!
 ```
 * Upload it. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests*.
 Click on *Import Test* and select your .2bb file.
+
+## Dependencies
+
+To run the script, you only need Java to be installed on your machine, and available at the command line.
+However, to modify it, you have to install Groovy, see http://www.groovy-lang.org. On Linux and Mac, you can easily install groovy and all related stack development environment via SDKMAN, http://sdkman.io/
+
+To compile the script, the following jars have to be added at compile time:
+* groovy (tested with *groovy-2.4.3*)
+* antlr4 (tested with *antlr-4.5-complete*) 
 
 ## The *.bbquiz* template
 
