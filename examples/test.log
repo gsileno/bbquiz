@@ -2,16 +2,15 @@
 This is a wrong response.	incorrect
 This is correct.	correct
 
-# MC # Multiple choice question?
+# MA # Multiple choice question?
 This is a wrong response.	incorrect
 This is correct.	correct
 This is not correct as well.	incorrect
-This is correct, too.   X	incorrect
+This is correct, too.	correct
 
-# MC # Please write an essay.
-	incorrect
+# ESS # Please write an essay.
 
 # MC # Another question?
-No, it is enough.   X	incorrect
+No, it is enough.	correct
 Yes, please.	incorrect
 
