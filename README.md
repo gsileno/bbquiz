@@ -43,7 +43,7 @@ Yes, please.
 ```
 > java -jar bbquiz.jar test.bbquiz
 ```
-creates the output file: test.2bb
+This command creates the output, converted file test.2bb:
 ```
 MC	Multiple answer question?	This is a wrong response.	incorrect	This is correct.	correct
 MA	Multiple choice question?	This is a wrong response.	incorrect	This is correct.	correct	This is not correct as well.	incorrect	This is correct, too.	correct
