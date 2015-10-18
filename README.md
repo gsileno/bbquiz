@@ -11,17 +11,11 @@ Therefore, I made this script to work with a much simpler template!
 ## Usage 
 
 * Download the *bbquiz.jar* file (you need Java installed on your machine, and available at the command line).
-* Convert your quiz file 
-* Upload it
-
-### conversion
+* Convert your quiz file. For instance, executing this command you create ./examples/test.2bb:
 ```
 > java -jar bbquiz.jar ./examples/test.bbquiz
 ```
-
-### upload
-Once the .2bb file is ready, go on BlackBoard, and then 
-*Control Panel > Course Tools > Tests, Surveys and Pools > Tests* 
+* Upload it. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests* 
 Click on *Import Test* and select your .2bb file.
 
 ## The *.bbquiz* template
