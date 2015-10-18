@@ -4,7 +4,7 @@
 
 BlackBoard (http://blackboard.uva.nl) is the online didactic environment in use at the UvA (University of Amsterdam, http://uva.nl) and at the VU (Vrij Universiteit, http://vu.nl), and plausibly in other universities as well. In order to fasten the creation of new quizzes for automatized evaluation, BlackBoard allows to upload them offline. Unfortunately, the given batch file format is not so easy to be handled by humans (see doc/2bb.guidelines.txt for further details).
 
-Therefore, I made this simple parser to work with a much simpler template. 
+Therefore, I made this simple parser to work with a more efficient template. 
 
 ## The *.bbquiz* template
 
