@@ -56,3 +56,11 @@ MC	Another question?	No, it is enough.   X	incorrect	Yes, please.	incorrect
 * To run the script, you only need Java to be installed on your machine, and available at the command line.
 * To hack it, you have to install Groovy, see http://www.groovy-lang.org. On Linux and Mac, you can easily install it via SDKMAN, http://sdkman.io/
 * To compile the script, the following jars have to be added at compile time: groovy (tested with *groovy-2.4.3*),  antlr4 (tested with *antlr-4.5-complete*).
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
