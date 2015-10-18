@@ -8,7 +8,7 @@ Therefore, I made this script to work with a much simpler template, but it is st
 
 ## The *.bbquiz* template
 
-example file: test.bbquiz
+example file: 'test.bbquiz'
 ```
 Multiple answer question?
 This is a wrong response.
@@ -39,11 +39,11 @@ Yes, please.
 
 * If you don't need to modify the script, just download the *bbquiz.jar* file
 * Write your .bbquiz file following the template given above.
-* Convert it. For instance, :
+* Convert it. For instance,
 ```
 > java -jar bbquiz.jar test.bbquiz
 ```
-This command creates the output, converted file test.2bb:
+This command creates the output, converted file 'test.2bb':
 ```
 MC	Multiple answer question?	This is a wrong response.	incorrect	This is correct.	correct
 MA	Multiple choice question?	This is a wrong response.	incorrect	This is correct.	correct	This is not correct as well.	incorrect	This is correct, too.	correct
