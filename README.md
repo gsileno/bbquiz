@@ -1,6 +1,6 @@
-# bbquiz
+# bbquiz converter
 
-*quiz importer for BlackBoard Learn* 
+*fast quiz importer for BlackBoard Learn* 
 
 (still quite a prototype)
 
