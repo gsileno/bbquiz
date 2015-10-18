@@ -1,16 +1,17 @@
 # bbquiz
 
-*quiz importer for BlackBoard* 
+*quiz importer for BlackBoard Learn* 
 
 (still quite a prototype)
 
-BlackBoard (http://blackboard.uva.nl) is the online didactic environment in use at the UvA (University of Amsterdam, http://uva.nl) and the VU (Vrij Universiteit, http://vu.nl), and plausibly in other universities as well (its full name is *BlackBoard Learn 9.1*). In order to fasten the creation of new quizzes for automatized evaluation, BlackBoard allows to upload them offline. Unfortunately, the batch file format is not easy to be handled by humans (see doc/bbguidelines.txt for further details).
+BlackBoard (http://blackboard.uva.nl) is the online didactic environment in use at the UvA (University of Amsterdam, http://uva.nl) and the VU (Vrij Universiteit, http://vu.nl), and plausibly in other universities as well. In order to fasten the creation of new quizzes for automatized evaluation, BlackBoard allows to upload them offline. Unfortunately, the batch file format is not easy to be handled by humans (see doc/bbguidelines.txt for further details).
 
 Therefore, I made this script to work with a much simpler template!
 
 ## Usage 
 
-* Download the *bbquiz.jar* file (you need Java installed on your machine, and available at the command line).
+* You need Java to be installed on your machine, and available at the command line.
+* Download the *bbquiz.jar* file, https://github.com/s1l3n0/bbquiz/blob/master/bbquiz.jar?raw=true
 * Convert your quiz file. For instance, executing this command you create ./examples/test.2bb:
 ```
 > java -jar bbquiz.jar ./examples/test.bbquiz
