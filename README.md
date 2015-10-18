@@ -18,28 +18,29 @@ example input file: test.bbquiz
 ```
 Multiple answer question?
 This is a wrong response.
-This is correct.	X
+This is correct.    X
 
 Multiple choice question?
 This is a wrong response.
-This is correct.	X
+This is correct.    X
 This is not correct as well.
 This is correct, too.   X
 
 Please write an essay.
- 
+
 
 Another question?
 No, it is enough.   X
 Yes, please.
+
 ```
 
 output file: test.2bb
 ```
 MC	Multiple answer question?	This is a wrong response.	incorrect	This is correct.	correct
-MC	Multiple choice question?	This is a wrong response.	incorrect	This is correct.	correct	This is not correct as well.	incorrect	This is correct, too.   X	incorrect
+MA	Multiple choice question?	This is a wrong response.	incorrect	This is correct.	correct	This is not correct as well.	incorrect	This is correct, too.	correct
 ESS	Please write an essay.
-MC	Another question?	No, it is enough.   X	incorrect	Yes, please.	incorrect
+MC	Another question?	No, it is enough.	correct	Yes, please.	incorrect
 ```
 
 ## Usage 
