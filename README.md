@@ -1,41 +1,33 @@
 # bbquiz
 
-**bbquiz**
 *quiz importer for BlackBoard* 
 
 (still quite a prototype)
 
-**BlackBoard** is the online didactic environment in use at the UvA and the VU, and plausibly in other university (its full name is *BlackBoard Learn 9.1*).
-
-In order to fasten the creation of new quizzes for automatized evaluation, blackboard allows to upload them offline. 
-Unfortunately, the batch file format is not easy to be handled by humans (see doc/bbguidelines.txt for further details).
+BlackBoard is the online didactic environment in use at the UvA and the VU, and plausibly in other university (its full name is *BlackBoard Learn 9.1*). In order to fasten the creation of new quizzes for automatized evaluation, blackboard allows to upload them offline. Unfortunately, the batch file format is not easy to be handled by humans (see doc/bbguidelines.txt for further details).
 
 Therefore, I made this script to work with a much simpler template!
 
 ## Usage 
 
-Download the *bbquiz.jar* file (you need Java installed on your machine, and available at the command line).
-Convert your quiz file and upload it.
+* Download the *bbquiz.jar* file (you need Java installed on your machine, and available at the command line).
+* Convert your quiz file 
+* Upload it
 
-**conversion**
+### conversion
 ```
 > java -jar bbquiz.jar ./examples/test.bbquiz
 ```
 
-**upload**
+### upload
 Once the .2bb file is ready, go on BlackBoard, and then 
 *Control Panel > Course Tools > Tests, Surveys and Pools > Tests* 
 Click on *Import Test* and select your .2bb file.
 
-## Details on the *.bbquiz* template
+## The *.bbquiz* template
 
 * A *.bbquiz* file consists of *multiple answers* (MA), *multiple choice* (MC), and *essay* (ESS) questions.  
-* MA and MC are composed by a question and answers. 
-** the first line counts as the question 
-** the following line as the answers
-** an empty line means that the quiz has finished
-** the correct answers end with *<tab> + X* (pay attention: there is a tabulation, not empty spaces! 
-** The distinction between MA and MC is made automatically by the script. 
+* MA and MC are composed by a question and answers. The first line counts as the question; the following lines as the answers. An empty line means that the quiz has finished. The correct answers end with *<tab> + X* (pay attention: there is a tabulation, not empty spaces! The distinction between MA and MC is made automatically by the script. 
 * ESS questions consist of a line with a text with the request, and *some empty space* in the following line.
 
 example: ./examples/test.bbquiz
