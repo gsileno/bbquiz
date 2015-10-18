@@ -1,0 +1,81 @@
+BATCH FILE GUIDELINES BlackBoard UvA
+=======================================
+Downloaded from http://blackboard.uva.nl/webapps/blackboard/execute/viewExtendedHelp?helpkey=question_upload&pluginId=_2123_1&ctx=course&course_id=_154585_1 on 1 April 2015.
+
+Questions can be authored offline in a specially formatted text file and uploaded into Tests, Surveys, and Question Pools.
+Once uploaded, questions can be edited and used like questions that have been authored in the system.
+
+Batch File Guidelines
+
+Follow these general guidelines for uploading files:
+- Each file must be a tab-delimited .txt file.
+- Do not include blank lines between records. The blank line will be processed and return an error.
+- Blackboard recommends that each batch file not exceed 500 records because of time-out restrictions associated with most browsers.
+
+File-Format Rules
+Questions in the text file must conform to the following structure to be uploaded successfully:
+- No header row for the file
+- One question per row
+- Duplicate questions are allowed
+- Fields in a row are separated by a TAB
+- Each field in the question correlates to the fields of the respective system-created question
+- Point values for questions in an uploaded file cannot differ but can be edited after the upload
+- The first field in every row defines the type of question
+- Correct, Incorrect, True, False and other words that identify answers must be in English.
+
+Note: Formatting errors in individual questions in a file will cause the questions to fail to upload, not the entire file.
+
+File Format Examples
+
+Essay
+ESS TABquestion text TABsample answer
+The sample answer is optional for this question type
+
+File Response
+FIL TABquestion text
+Fill in the Blank
+FIB TABquestion text TABanswer text
+TABanswer text may be repeated for each correct answer that is part of this question type. The maximum number of answers is 20.
+
+Jumbled Sentence
+JUMBLED_SENTENCE TABquestion text TABchoice1 TABvariable1 TABchoice2 TABvariable2 TABchoice3 TABvariable3
+This question type has a list of choices-answers where each choice-answer consists of the choice followed by the list of variables for which that choice is the correct answer. An empty field indicates the end of a choice-answer. A choice immediately followed by an empty field indicates that that choice is not the correct answer for any variable.
+
+Matching
+MAT TABquestion text TABanswer text TABmatching text TABanswer text TABmatching text
+TABanswer text TABmatching text may be repeated for each correct answer that is part of this question type. The maximum number of answers is 20. The order of each of the answer texts in the question is the correct order, reflecting the correct answer. The system will randomly order the answers and their question. There must be a one-to-one relationship between questions and answers. If not, correct answers may be marked incorrect if more than one answer has the same value.
+
+Multiple Answer
+MA TABquestion text TABanswer text TABcorrect or incorrect TABanswer text TABcorrect or incorrect
+TABanswer text may be repeated for each of the answers that are part of this question type. For each TABanswer text, there must be a corresponding TABcorrect or TABincorrect. The maximum number of answers is 20.
+
+Multiple Choice
+MC TABquestion text TABanswer text TABcorrect or incorrect TABanswer text TABcorrect or incorrect
+TABanswer text may be repeated for each of the answers that are part of this question type. For each TABanswer text, there must be a corresponding TABcorrect or TABincorrect. The maximum number of answers is 20.
+
+Multiple Fill in the Blank
+FIB_PLUS TABquestion text TABvariable1 TABanswer1 TABanswer2 TABvariable2 TABanswer3
+The format consists of a list of variable-answers where each variable-answer is composed of the variable name and a list of correct answers for that variable. Variable-answers are delimited by an empty field.
+
+Numeric Response
+NUM TABquestion text TABanswer TABanswer range
+Note: Answer and answer range must be in the form of a number with no decimals or commas.
+TABanswer range is a number plus or minus from the answer that is acceptable as correct. This is optional for this question type.
+
+Opinion Scale/Likert Scale
+OP TABquestion text
+
+Ordering
+ORD TABquestion text TABanswer text TABanswer text
+TABanswer text may be repeated for each of the answers that are part of this question type. The maximum number of answers is 20. The order of each of the answer texts in the question is the correct order, reflecting the correct answer. The system will randomly order the answers.
+
+Quiz Bowl
+QUIZ_BOWL TABquestion text TABquestion_word1 TABquestion_word2 TABphrase1 TABphrase2
+Question words are all valid interrogatives and phrases are all valid answer phrases. The maximum number of interrogatives and matching phrases is 20.
+
+Short Response
+SR TABquestion text TABsample answer
+TABsample answer is optional for this question type.
+
+True / False
+TF TABquestion text TABtrue or false

@@ -1,0 +1,5 @@
+MC	This is an example of multiple choice questions (multiple answers possible):	This is a wrong response.	incorrect	This is correct.	correct	This is not correct as well.	incorrect	This is correct, too.   X	incorrect
+MC	This is an example of multiple answer question (one only correct choice):	This is the one!	correct	Look around, you're not far.	incorrect	This is not correct, sorry.	incorrect
+MC	What do you think about BlackBoard?	I think it is a not nice environment to work with and should be heavily redesigned. X	incorrect	I love it, I think it is the best software in the world, almost as much as Vista.	incorrect	BlackBoard what?	incorrect
+ESS	Well, I think I would appreciate to have a comment about what do you think. So please write an essay about that.
+MC	Now, it is time to go back to work. I wanted to know if you like this script.	Yes!    X	incorrect	So and so.  X	incorrect	Not really. X	incorrect	Absolutely not.  X	incorrect
