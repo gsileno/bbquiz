@@ -14,7 +14,7 @@ Therefore, I made this script to work with a much simpler template!
 * MA and MC are composed by a question and answers. The first line counts as the question; the following lines as the answers. Empty lines separate the quizzes. **The correct answers end with '[tab]X'** (pay attention: there is a tabulation, not empty spaces! The distinction between MA and MC is made automatically by the script. 
 * ESS questions consist of a line with a text with the request, and *some empty space* in the following line.
 
-example: ./examples/test.bbquiz
+example input file: test.bbquiz
 ```
 Multiple answer question?
 This is a wrong response.
@@ -34,7 +34,7 @@ No, it is enough.   X
 Yes, please.
 ```
 
-output: ./examples/test.2bb
+output file: test.2bb
 ```
 MC	Multiple answer question?	This is a wrong response.	incorrect	This is correct.	correct
 MC	Multiple choice question?	This is a wrong response.	incorrect	This is correct.	correct	This is not correct as well.	incorrect	This is correct, too.   X	incorrect
@@ -44,16 +44,17 @@ MC	Another question?	No, it is enough.   X	incorrect	Yes, please.	incorrect
 
 ## Usage 
 
-* Download the *bbquiz.jar* file, https://github.com/s1l3n0/bbquiz/blob/master/bbquiz.jar?raw=true
-* Convert your quiz file. For instance, this command creates the output file ./examples/test.2bb shown above:
+* If you don't need to modify the script, just Download the *bbquiz.jar* file, https://github.com/s1l3n0/bbquiz/blob/master/bbquiz.jar?raw=true. 
+* Write your .bbquiz file following the template given above.
+* Convert it. For instance, this command creates the output file test.2bb:
 ```
-> java -jar bbquiz.jar ./examples/test.bbquiz
+> java -jar bbquiz.jar test.bbquiz
 ```
 * Upload the converted file. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests*. Click on *Import Test* and select your .2bb file.
 
 ## Dependencies
 
-* To run the script, you only need Java to be installed on your machine, and available at the command line.
+* To run the script, you need only Java to be installed on your machine, and available from the command line.
 * To hack it, you have to install Groovy, see http://www.groovy-lang.org. On Linux and Mac, you can easily install it via SDKMAN, http://sdkman.io/
 * To compile the script, the following jars have to be added at compile time: groovy (tested with *groovy-2.4.3*),  antlr4 (tested with *antlr-4.5-complete*).
 
