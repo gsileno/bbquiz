@@ -45,7 +45,7 @@ MC	Another question?	No, it is enough.   X	incorrect	Yes, please.	incorrect
 ## Usage 
 
 * Download the *bbquiz.jar* file, https://github.com/s1l3n0/bbquiz/blob/master/bbquiz.jar?raw=true
-* Convert your quiz file. For instance, executing this command you create ./examples/test.2bb:
+* Convert your quiz file. For instance, this command creates ./examples/test.2bb shown above:
 ```
 > java -jar bbquiz.jar ./examples/test.bbquiz
 ```
