@@ -45,12 +45,11 @@ MC	Another question?	No, it is enough.   X	incorrect	Yes, please.	incorrect
 ## Usage 
 
 * Download the *bbquiz.jar* file, https://github.com/s1l3n0/bbquiz/blob/master/bbquiz.jar?raw=true
-* Convert your quiz file. For instance, this command creates ./examples/test.2bb shown above:
+* Convert your quiz file. For instance, this command creates the output file ./examples/test.2bb shown above:
 ```
 > java -jar bbquiz.jar ./examples/test.bbquiz
 ```
-* Upload it. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests*.
-Click on *Import Test* and select your .2bb file.
+* Upload the converted file. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests*. Click on *Import Test* and select your .2bb file.
 
 ## Dependencies
 
