@@ -48,7 +48,7 @@ MA	Multiple choice question?	This is a wrong response.	incorrect	This is correct
 ESS	Please write an essay.
 MC	Another question?	No, it is enough.	correct	Yes, please.	incorrect
 ```
-* Upload the converted file. Go on BlackBoard, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Tests*. Click on *Import Test* and select your .2bb file.
+* Upload the converted file. Go on BlackBoard, open your course, and then *Control Panel > Course Tools > Tests, Surveys and Pools > Pools*. Click on *Build Pool*, and once created click on *Upload Questions* and select your .2bb file.
 
 ## Dependencies
 
